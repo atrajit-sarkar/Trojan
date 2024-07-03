@@ -28,7 +28,7 @@ while True:
 
 #main bot codes:
 bot=telebot.TeleBot("")
-chatids=[""]
+chatids=["",""]
 @bot.message_handler(commands=['start'])
 def start(message):
     # global directory
